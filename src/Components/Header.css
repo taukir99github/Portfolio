@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #212121;
+    color: #fff;
+}
+
+.header{
+    display: flex;
+    margin-left: 6rem;
+    margin-right: 5rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.header-link{
+    cursor: pointer;
+}
+.header-right-side{
+    display: flex;
+    gap: 1.5rem;
+}
+.header-link:hover{
+     color: aqua;
+}
+.header-right-side a{
+    text-decoration: none;
+}
