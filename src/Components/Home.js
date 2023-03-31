@@ -5,6 +5,11 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import Taukir from "../images/Taukir.jpg";
+import About from "./About";
+import Services from "./Services";
+import Porfolio from "./Porfolio";
+import Skills from "./Skills";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
@@ -50,6 +55,11 @@ const Home = () => {
         </div>
         <div className="home-right-side"></div>
       </div>
+      <About/>
+      <Services/>
+      <Porfolio/>
+      <Skills/>
+      <Contact/>
     </>
   );
 };

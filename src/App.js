@@ -10,8 +10,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <div>
+     <Router>
+      <div style={{fontFamily:" 'Roboto Slab', serif"}}>
         <Header />
         
         <Route path="/" exact component={Home} />
@@ -22,7 +22,7 @@ function App() {
         <Route path="/Contact" exact component={Contact} />
         </div><img src="" alt="" sizes="" srcset="" />
       
-    </Router>
+     </Router>
   );
 }
 
